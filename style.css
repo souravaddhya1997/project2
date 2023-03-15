@@ -1,0 +1,19 @@
+
+.ele2{
+    color:blue ;
+}
+.container{
+    display:flex;
+    background-color: aliceblue;
+    height: 12;
+    flex-wrap:wrap;
+}
+.box{
+    
+    border: 1px solid black ;
+     width: 200px; 
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
