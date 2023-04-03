@@ -1,19 +1,30 @@
-
-.ele2{
-    color:blue ;
+body
+{
+    background-color: darkgray;
 }
-.container{
-    display:flex;
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    font-style: italic;
+    font-size: large;
+    border: 5px solid red;
+    align-items: center;
+    width: 250px;
+    margin-left: 500px;
     background-color: aliceblue;
-    height: 12;
-    flex-wrap:wrap;
+   
 }
 .box{
+    border-radius: 7%;
+    box-shadow: 5px 5px rgb(236, 30, 219);
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    font-style: italic;
+    font-size: large;
+    border: 5px solid red;
     
-    border: 1px solid black ;
-     width: 200px; 
-    height: 300px;
-    margin: 20px;
-    padding: 20px;
-    justify-content: space-around;
 }
