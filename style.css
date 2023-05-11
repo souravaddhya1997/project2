@@ -2,29 +2,83 @@ body
 {
     background-color: darkgray;
 }
-.cont1{
+.box1{
     display: flex;
-    flex-wrap: wrap;
-    color: red;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    border: 3px solid red;
+    background-color: aliceblue;
+    box-shadow: 5px 5px violet;
+    border-radius: 5%;
+}
+.conta{
+    height: 250px;
+    width: 200px;
+}
+.cont1{
     font-style: italic;
     font-size: large;
-    border: 5px solid red;
-    align-items: center;
-    width: 250px;
-    margin-left: 500px;
-    background-color: aliceblue;
-   
+    width: 400px;
+    color: brown;
+    text-shadow: 1px 1px brown;
+    padding-left: 110px;
+}
+.cont3{
+    he
 }
 .box{
-    border-radius: 7%;
-    box-shadow: 5px 5px rgb(236, 30, 219);
-}
-.cont2{
+    width: auto;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 700px;
+    justify-content: space-evenly;
+    border: 4px solid green;
+} 
+.cont2{
     color: red;
     font-style: italic;
     font-size: large;
-    border: 5px solid red;
+    border: 2px solid red;
+    padding-right: 60px;
+}
+.cont6{
+    position: fixed;
+    border: 2px solid red;
+    background-color: greenyellow;
+    bottom: 20px;
+    left: 500px;
+}
+.box2{
+    background-color: green;
+    border: 5px solid rgb(71, 15, 71);
+    margin-top: 10px;
+    margin-left: 400px;
+    height: 500px;
+    width: 400px;
+}
+.box3{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    column-gap: 19px;
     
+}
+.box4{
+    display: flex;
+    background-color: bisque;
+    height: 200px;
+    width: 190px;
+    font-size: 10px;
+}
+.box5{
+    padding-left: 100px;
+    font-size: 10px;
+}
+.box6{
+    height: 200px;
+    width: 405px;
+    background-color: bisque;
 }
